@@ -78,3 +78,79 @@ body {
     color: #333;
     margin: 0;
 }
+
+.education-section-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+}
+
+.education-section {
+    max-width: 600px;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.education-heading {
+    font-family: 'Geist', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 1rem 0;
+    text-align: left;
+}
+
+.education-subheading {
+    font-family: 'Geist', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 1rem 0;
+    text-align: left;
+}
+
+.education-list {
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+    color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.education-list li {
+    margin: 0.5rem 0;
+}
+
+.education-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.education-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.education-link:hover {
+    opacity: 0.7;
+}
+
+.link-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
