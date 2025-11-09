@@ -154,3 +154,61 @@ body {
     height: 16px;
     display: inline-block;
 }
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f7f7f7;
+    padding: 4rem 0 2rem 0;
+}
+
+.page-content {
+    max-width: 600px;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.teaching-assistant-list {
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+    color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.teaching-assistant-list li {
+    margin: 0.75rem 0;
+    line-height: 1.6;
+}
+
+.semester-section {
+    margin-bottom: 2rem;
+}
+
+.semester-heading {
+    font-family: 'Geist', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 0.75rem 0;
+    text-align: left;
+}
+
+.courses-list {
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+    color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.courses-list li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
