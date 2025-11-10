@@ -122,6 +122,8 @@ body {
     font-size: 24px;
     color: #37352f;
     margin: 0 0 1.5rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.2);
     text-align: left;
     letter-spacing: -0.02em;
 }
@@ -153,7 +155,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px dotted rgba(55, 53, 47, 0.2);
     align-items: center;
 }
 
@@ -218,6 +222,13 @@ body {
 
 .semester-section {
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.15);
+}
+
+.semester-section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .semester-heading {
@@ -246,6 +257,13 @@ body {
 
 .research-item {
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.15);
+}
+
+.research-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .research-header {
@@ -320,12 +338,21 @@ body {
     font-size: 24px;
     color: #37352f;
     margin: 0 0 2rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.2);
     text-align: left;
     letter-spacing: -0.02em;
 }
 
 .publication-item {
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.15);
+}
+
+.publication-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .publication-title {
@@ -406,12 +433,21 @@ body {
     font-size: 24px;
     color: #37352f;
     margin: 0 0 2rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.2);
     text-align: left;
     letter-spacing: -0.02em;
 }
 
 .project-item {
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.15);
+}
+
+.project-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .project-header {
@@ -593,12 +629,21 @@ body {
     font-size: 24px;
     color: #37352f;
     margin: 0 0 2rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.2);
     text-align: left;
     letter-spacing: -0.02em;
 }
 
 .experience-item {
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.15);
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .experience-header {
