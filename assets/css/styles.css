@@ -212,3 +212,56 @@ body {
     margin: 0.5rem 0;
     line-height: 1.6;
 }
+
+.research-item {
+    margin-bottom: 2rem;
+}
+
+.research-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    gap: 1rem;
+}
+
+.research-title-section {
+    flex: 1;
+}
+
+.research-title {
+    font-family: 'Geist', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 0.25rem;
+}
+
+.research-role {
+    font-family: 'Geist', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #333;
+}
+
+.research-meta {
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.research-meta div {
+    margin-bottom: 0.25rem;
+}
+
+.research-description {
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 0.75rem;
+    padding-left: 1rem;
+    border-left: 1px solid #333;
+}
