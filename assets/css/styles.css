@@ -521,3 +521,55 @@ body {
     height: 20px;
     display: block;
 }
+
+.professional-experience-section-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+}
+
+.professional-experience-section {
+    max-width: 600px;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.professional-experience-heading {
+    font-family: 'Geist', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 2rem 0;
+    text-align: left;
+}
+
+.experience-item {
+    margin-bottom: 2rem;
+}
+
+.experience-header {
+    margin-bottom: 0.75rem;
+}
+
+.experience-title-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.experience-title {
+    font-family: 'Geist', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+}
+
+.experience-role {
+    font-family: 'Geist', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #333;
+}
