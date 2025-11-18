@@ -84,6 +84,103 @@ body {
     font-size: 17px;
     line-height: 1.8;
     color: #37352f;
+    margin: 0 0 2rem 0;
+    letter-spacing: -0.01em;
+}
+
+.fun-facts-heading {
+    font-family: 'Geist', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #37352f;
+    margin: 0 0 1.5rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.2);
+    text-align: left;
+    letter-spacing: -0.02em;
+}
+
+.fun-facts-list {
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #37352f;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.fun-facts-list li {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.fun-facts-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #37352f;
+    font-weight: 600;
+}
+
+.fun-facts-section-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out 0.15s forwards;
+}
+
+.fun-facts-section {
+    max-width: 600px;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+
+.fun-facts-scroll-container {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 2rem;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.fun-facts-scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.fun-fact-card {
+    flex: 0 0 auto;
+    width: 280px;
+    min-height: 120px;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid rgba(55, 53, 47, 0.15);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fun-fact-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.fun-fact-card p {
+    font-family: 'Geist', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #37352f;
     margin: 0;
     letter-spacing: -0.01em;
 }
@@ -457,12 +554,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 .project-title-section {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    flex: 1;
+    min-width: 0;
 }
 
 .project-link-inline {
@@ -471,6 +571,8 @@ body {
     justify-content: center;
     width: 32px;
     height: 32px;
+    min-width: 32px;
+    flex-shrink: 0;
     border-radius: 50%;
     background-color: rgba(55, 53, 47, 0.08);
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -531,6 +633,17 @@ body {
     margin-bottom: 0.75rem;
     padding-left: 1rem;
     border-left: 2px solid rgba(55, 53, 47, 0.2);
+}
+
+.project-sub-item {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px dotted rgba(55, 53, 47, 0.15);
+}
+
+.project-sub-item:last-child {
+    margin-bottom: 0;
 }
 
 .project-link {
