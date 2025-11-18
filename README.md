@@ -19,6 +19,13 @@ I am Didrik, - a student in the M&T program at Penn. I am interested in web deve
 ## Activity
 
 <!--START_SECTION:waka-->
+
+```txt
+From: 10 November 2025 - To: 17 November 2025
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ## Links
