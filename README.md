@@ -21,13 +21,13 @@ I'm Didrik, a student in the M&T program at Penn. I'm interested in web developm
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 November 2025 - To: 20 November 2025
+From: 14 November 2025 - To: 21 November 2025
 
-Markdown     52 mins         ██████████░░░░░░░░░░░░░░░   40.13 %
-HTML         35 mins         ██████▓░░░░░░░░░░░░░░░░░░   27.22 %
-Python       29 mins         █████▓░░░░░░░░░░░░░░░░░░░   22.78 %
-Git Config   7 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.91 %
-Text         4 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.82 %
+Markdown     52 mins         ██████████░░░░░░░░░░░░░░░   40.03 %
+HTML         35 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.88 %
+Python       29 mins         █████▓░░░░░░░░░░░░░░░░░░░   22.59 %
+Git Config   8 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.60 %
+Text         4 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.77 %
 ```
 
 <!--END_SECTION:waka-->
