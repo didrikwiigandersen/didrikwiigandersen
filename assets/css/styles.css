@@ -761,6 +761,60 @@ body {
     padding-bottom: 0;
 }
 
+.reading-section-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out 0.55s forwards;
+}
+
+.reading-section {
+    max-width: 600px;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.reading-heading {
+    font-family: 'Geist', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #37352f;
+    margin: 0 0 2rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.2);
+    text-align: left;
+    letter-spacing: -0.02em;
+}
+
+.reading-list {
+    font-family: 'Geist', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #37352f;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.reading-list li {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.reading-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #37352f;
+    font-weight: 600;
+}
+
 .experience-header {
     margin-bottom: 0.75rem;
 }
