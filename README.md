@@ -21,13 +21,13 @@ I'm Didrik, a student in the M&T program at Penn. I'm interested in web developm
 <!--START_SECTION:waka-->
 
 ```txt
-From: 19 November 2025 - To: 26 November 2025
+From: 20 November 2025 - To: 27 November 2025
 
-TypeScript   1 hr 43 mins    ████████████████░░░░░░░░░   63.51 %
-Python       28 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.76 %
-Git Config   11 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.05 %
-HTML         8 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.47 %
-SQL          3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.09 %
+TypeScript   1 hr 43 mins    ██████████████████▓░░░░░░   74.40 %
+Git Config   11 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.26 %
+HTML         8 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.41 %
+Python       5 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.65 %
+SQL          3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.44 %
 ```
 
 <!--END_SECTION:waka-->
