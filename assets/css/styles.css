@@ -76,7 +76,19 @@ body {
 .info-section {
     max-width: 600px;
     padding: 0 2rem;
-    text-align: center;
+    text-align: left;
+}
+
+.info-heading {
+    font-family: 'Geist', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #37352f;
+    margin: 0 0 1.5rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px dotted rgba(55, 53, 47, 0.2);
+    text-align: left;
+    letter-spacing: -0.02em;
 }
 
 .info-section p {
