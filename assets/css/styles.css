@@ -91,6 +91,27 @@ body {
     letter-spacing: -0.02em;
 }
 
+.info-paragraph-with-image {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.info-headshot {
+    float: right;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px dotted rgba(55, 53, 47, 0.2);
+    margin: 0 0 1rem 1.5rem;
+    shape-outside: circle(50%);
+    transition: transform 0.3s ease;
+}
+
+.info-headshot:hover {
+    transform: scale(1.05);
+}
+
 .info-section p {
     font-family: 'Geist', sans-serif;
     font-size: 17px;
@@ -849,4 +870,14 @@ body {
     font-style: italic;
     font-size: 16px;
     color: #37352f;
+}
+
+@media (max-width: 768px) {
+    .info-headshot {
+        float: none;
+        display: block;
+        margin: 0 auto 1.5rem auto;
+        width: 180px;
+        height: 180px;
+    }
 }
