@@ -1,6 +1,6 @@
 # Hey there! 👋
 
-I'm Didrik, a student in the M&T program at Penn. I'm interested in web development, AI, and design. Originally from Norway.
+I'm Didrik, a student in the M&T program at Penn. I am from a small town in Norway and have interests in compression, data science, ML, and storage systems. Check out my website!
 
 ## Tech Stack
 
@@ -15,22 +15,6 @@ I'm Didrik, a student in the M&T program at Penn. I'm interested in web developm
 
 ### Data Science & AI
 <img src="https://skillicons.dev/icons?i=tensorflow,r" />
-
-## Activity
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 23 November 2025 - To: 30 November 2025
-
-HTML         14 mins         ███████████░░░░░░░░░░░░░░   43.74 %
-Git Config   10 mins         ████████░░░░░░░░░░░░░░░░░   31.49 %
-Python       4 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   14.91 %
-Text         3 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.22 %
-JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 %
-```
-
-<!--END_SECTION:waka-->
 
 ## Links
 
