@@ -352,6 +352,30 @@ body {
     line-height: 1.6;
 }
 
+.courses-intro-section {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    border: 1px dotted rgba(55, 53, 47, 0.2);
+    border-radius: 8px;
+    background-color: rgba(55, 53, 47, 0.02);
+}
+
+.courses-intro-section .semester-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.courses-intro-section p {
+    font-family: 'Geist', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #37352f;
+    margin: 0;
+}
+
 .semester-section {
     margin-bottom: 2rem;
     padding-bottom: 2rem;
