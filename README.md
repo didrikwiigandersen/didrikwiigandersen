@@ -2,7 +2,7 @@
 
 My name is Didrik Wiig-Andersen and I am from Norway. I currently study computer science, mathematics, finance, and statistics in the M&T program at the University of Pennsylvania. 
 
-After graduation in May, 2026 I will be working with my co-founder on a startup in San Francisco. 
+After graduation in May 2026, I will be working with my co-founder on our startup in San Francisco. 
 
 ## Tech Stack
 
